@@ -1,0 +1,417 @@
+{
+  "logo": "بيتزا",
+  "home": {
+    "hero": {
+      "title": "قطعة من السعادة",
+      "description": "تشعر برغبة في البيتزا؟ لدينا ما يلبي رغبتك مع المكونات الطازجة، والنكهات التي لا تنتهي، والتوصيل الأسرع. قطعتك المثالية على بعد نقرة واحدة!",
+      "orderNow": "اطلب الآن",
+      "learnMore": "اعرف المزيد"
+    },
+    "bestSeller": {
+      "checkOut": "اكتشف",
+      "OurBestSellers": "أفضل مبيعاتنا"
+    },
+    "about": {
+      "ourStory": "قصتنا",
+      "aboutUs": "معلومات عنا",
+      "descriptions": {
+        "one": "مرحبًا بكم في بيتزانا، حيث نقدم أفضل أنواع البيتزا المصنوعة من الطازج المكونات. كل قطعة هي تحفة فنية، تم إعدادها بعناية لتقديم التوازن المثالي للن flavors. من المفضلات الكلاسيكية إلى الإبداعات الفريدة، هناك شيء لكل عشاق البيتزا!",
+        "two": "شغفنا بالبيتزا يتجلى في كل طبق. نختار أفضل المكونات المحلية و نخبزها إلى الكمال، مما يضمن أن كل قضمة لذيذة ومرضية. سواء كنت هنا لتناول وجبة سريعة أو تجربة تناول طعام مريحة، نحن هنا لخدمتك.",
+        "three": "انضم إلينا في رحلة مليئة بالنكهات واستمتع بتجربة البيتزا كما لم يحدث من قبل. نحن نفخر بتقديم طعم رائع، وجودة، وخدمة لجعل كل وجبة لا تُنسى. تعال وذوق الفرق!"
+      }
+    },
+    "contact": {
+      "Don'tHesitate": "لا تتردد",
+      "contactUs": "اتصل بنا"
+    }
+  },
+  "navbar": {
+    "home": "الصفحة الرئيسية",
+    "about": "معلومات عنا",
+    "menu": "القائمة",
+    "contact": "تواصل معنا",
+    "login": "تسجيل الدخول",
+    "register": "انشاء حساب",
+    "signOut": "تسجيل الخروج",
+    "profile": "الملف الشخصي",
+    "admin": "المسؤول"
+  },
+  "auth": {
+    "login": {
+      "title": "مرحبًا بعودتك",
+      "name": {
+        "label": "الاسم",
+        "placeholder": "أدخل اسمك"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل بريدك الإلكتروني"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة المرور"
+      },
+      "submit": "تسجيل الدخول",
+      "authPrompt": {
+        "message": "ليس لديك حساب؟ ",
+        "signUpLinkText": "سجل الآن"
+      }
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "name": {
+        "label": "الاسم",
+        "placeholder": "أدخل اسمك"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل بريدك الإلكتروني"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة المرور"
+      },
+      "confirmPassword": {
+        "label": "تأكيد كلمة المرور",
+        "placeholder": "أعد إدخال كلمة المرور"
+      },
+      "submit": "إنشاء حساب",
+      "authPrompt": {
+        "message": "هل لديك حساب؟ ",
+        "loginLinkText": "تسجيل الدخول"
+      }
+    },
+    "messagesAuth": {
+      "loginSuccessful": "تم تسجيل الدخول بنجاح"
+    }
+  },
+  "validation": {
+    "email": {
+      "required": "البريد الإلكتروني مطلوب",
+      "invalid_type": "يجب أن يكون البريد الإلكتروني من نوع نص",
+      "min": "يجب ألا يقل البريد الإلكتروني عن 3 أحرف",
+      "max": "يجب ألا يزيد البريد الإلكتروني عن 200 حرف",
+      "invalid_format": "البريد الإلكتروني غير صالح"
+    },
+    "password": {
+      "required": "كلمة المرور مطلوبة",
+      "invalid_type": "يجب أن تكون كلمة المرور من نوع نص",
+      "min": "يجب ألا تقل كلمة المرور عن 6 أحرف",
+      "special_char": "يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل"
+    },
+    "confirmPassword": {
+      "required": "تأكيد كلمة المرور مطلوب",
+      "mismatch": "كلمة المرور وتأكيد كلمة المرور غير متطابقين"
+    },
+    "username": {
+      "required": "اسم المستخدم مطلوب",
+      "invalid_type": "يجب أن يكون اسم المستخدم من نوع نص",
+      "min": "يجب ألا يقل اسم المستخدم عن 3 أحرف",
+      "max": "يجب ألا يزيد اسم المستخدم عن 50 حرفًا"
+    },
+    "phone": {
+      "required": "رقم الهاتف مطلوب",
+      "invalid": "يرجى إدخال رقم هاتف صالح"
+    },
+    "address": {
+      "required": "العنوان مطلوب"
+    },
+    "postalCode": {
+      "required": "الرمز البريدي مطلوب",
+      "invalid": "يرجى إدخال رمز بريدي صالح"
+    },
+    "city": {
+      "required": "المدينة مطلوبة"
+    },
+    "country": {
+      "required": "الدولة مطلوبة"
+    },
+    "title": {
+      "required": "العنوان مطلوب",
+      "invalid_type": "يجب أن يكون العنوان من نوع نص",
+      "min": "يجب ألا يقل العنوان عن حرفين",
+      "max": "يجب ألا يزيد العنوان عن 200 حرف"
+    },
+    "description": {
+      "required": "الوصف مطلوب",
+      "invalid_type": "يجب أن يكون الوصف من نوع نص",
+      "min": "يجب ألا يقل الوصف عن 10 أحرف",
+      "max": "يجب ألا يزيد الوصف عن 1000 حرف"
+    },
+    "name": {
+      "required": "الاسم مطلوب",
+      "invalid_type": "يجب أن يكون الاسم من نوع نص",
+      "min": "يجب ألا يقل الاسم عن حرفين",
+      "max": "يجب ألا يزيد الاسم عن 200 حرف"
+    },
+    "basePrice": {
+      "required": "السعر الأساسي مطلوب",
+      "must_be_positive": "يجب أن يكون السعر الأساسي أكبر من صفر"
+    },
+    "category": {
+      "required": "الفئة مطلوبة"
+    },
+    "size": {
+      "name": {
+        "required": "اسم الحجم مطلوب"
+      },
+      "price": {
+        "nonnegative": "سعر الحجم لا يمكن أن يكون سالبًا"
+      }
+    },
+    "extra": {
+      "name": {
+        "required": "اسم الإضافة مطلوب"
+      },
+      "price": {
+        "nonnegative": "سعر الإضافة لا يمكن أن يكون سالبًا"
+      }
+    },
+    "image": {
+      "invalid_type": "يجب أن تكون الصورة المرفوعة ملفًا صالحًا"
+    }
+  },
+  "messages": {
+    "userNotFound": "المستخدم غير موجود",
+    "incorrectPassword": "كلمة المرور غير صحيحة",
+    "loginSuccessful": "تم تسجيل الدخول بنجاح",
+    "unexpectedError": "حدث خطأ غير متوقع",
+    "userAlreadyExists": "المستخدم موجود بالفعل",
+    "accountCreated": "تم إنشاء الحساب بنجاح",
+    "updateProfileSucess": "تم تحديث الملف الشخصي بنجاح",
+    "categoryAdded": "تم اضافة الفئة بنجاح",
+    "updatecategorySucess": "تم تحديث الفئة بنجاح",
+    "deleteCategorySucess": "تم حذف الفئة بنجاح",
+    "productAdded": "تم اضافة المنتج بنجاح",
+    "updateProductSucess": "تم تحديث المنتج بنجاح",
+    "deleteProductSucess": "تم حذف المنتج بنجاح",
+    "updateUserSucess": "تم تحديث المستخدم بنجاح",
+    "deleteUserSucess": "تم حذف المستخدم بنجاح",
+    "noProductItems": "لم يتم توفير عناصر المنتج",
+    "orderAddedSuccess": "تم إضافة الطلب بنجاح",
+    "orderDeletedSuccess": "تم حذف الطلب بنجاح",
+    "internalServerError": "خطأ داخلي في الخادم",
+    "paymentCreationFailed": "فشل في إنشاء عملية الدفع. حاول مرة أخرى لاحقًا.",
+    "paymentSuccessWithEmail": "تم الدفع بنجاح، تم إنشاء الطلب وإرسال البريد الإلكتروني",
+    "orderFailed": "فشل في إنشاء الطلب",
+    "paymentConfirm": {
+      "title": "تم الدفع بنجاح!",
+      "message": "لقد أرسلنا بريدًا إلكترونيًا بتأكيد الطلب بالإضافة إلى المحتوى الرقمي",
+      "viewOrder": "عرض تفاصيل الطلب"
+    }
+  },
+  "menuItem": {
+    "addToCart": "أضف الي العربة"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "form": {
+      "name": {
+        "label": "الاسم",
+        "placeholder": "أدخل اسمك"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل بريدك الإلكتروني"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة المرور"
+      },
+      "phone": {
+        "label": "الهاتف",
+        "placeholder": "أدخل رقم هاتفك"
+      },
+      "address": {
+        "label": "العنوان",
+        "placeholder": "أدخل عنوانك"
+      },
+      "postalCode": {
+        "label": "الرمز البريدي",
+        "placeholder": "أدخل الرمز البريدي"
+      },
+      "city": {
+        "label": "المدينة",
+        "placeholder": "أدخل مدينتك"
+      },
+      "country": {
+        "label": "الدولة",
+        "placeholder": "أدخل دولتك"
+      },
+      "admin": "المسئول",
+      "save": "حفظ"
+    }
+  },
+  "admin": {
+    "tabs": {
+      "profile": "الملف الشخصي",
+      "categories": "الفئات",
+      "menuItems": "عناصر القائمة",
+      "users": "المستخدمون",
+      "orders": "الطلبات"
+    },
+    "categories": {
+      "title": "التصنيفات",
+      "table": {
+        "name": "الاسم",
+        "description": "الوصف",
+        "image": "الصورة",
+        "createdAt": "تاريخ الإنشاء",
+        "updatedAt": "تاريخ التحديث",
+        "noCategoriesFound": "لا توجد تصنيفات"
+      },
+      "addCategory": {
+        "title": "إضافة تصنيف جديد",
+        "form": {
+          "name": {
+            "label": "اسم التصنيف",
+            "placeholder": "أدخل اسم التصنيف"
+          },
+          "description": {
+            "label": "الوصف",
+            "placeholder": "أدخل وصف التصنيف"
+          },
+          "image": {
+            "label": "تحميل صورة"
+          },
+          "submit": "إضافة التصنيف",
+          "back": "العودة إلى جدول التصنيفات"
+        }
+      },
+      "editCategory": {
+        "title": "تعديل التصنيف",
+        "form": {
+          "name": {
+            "label": "اسم التصنيف",
+            "placeholder": "أدخل اسم التصنيف"
+          },
+          "description": {
+            "label": "الوصف",
+            "placeholder": "أدخل وصف التصنيف"
+          },
+          "image": {
+            "label": "تحميل صورة"
+          },
+          "submit": "تعديل التصنيف",
+          "back": "العودة إلى تفاصيل التصنيفات"
+        }
+      }
+    },
+    "menu-items": {
+      "backToProducts": "العودة إلى المنتجات",
+      "table": {
+        "name": "الاسم",
+        "description": "الوصف",
+        "image": "الصورة",
+        "createdAt": "تاريخ الإنشاء",
+        "updatedAt": "تاريخ التعديل",
+        "noProductsFound": "لا توجد منتجات"
+      },
+      "addProduct": {
+        "title": "إضافة منتج جديد",
+        "form": {
+          "name": {
+            "label": "اسم المنتج",
+            "placeholder": "أدخل اسم المنتج"
+          },
+          "description": {
+            "label": "الوصف",
+            "placeholder": "أدخل وصف المنتج"
+          },
+          "basePrice": {
+            "label": "السعر الأساسي",
+            "placeholder": "أدخل السعر الأساسي"
+          },
+          "category": {
+            "label": "الفئة",
+            "placeholder": "اختر الفئة"
+          },
+          "image": {
+            "label": "رفع صورة"
+          },
+          "optionName": "الاسم",
+          "optionPrice": "السعر",
+          "selectPlaceholder": "اختر...",
+          "addSize": "إضافة حجم",
+          "addExtra": "إضافة مكون إضافي",
+          "sizes": "الأحجام",
+          "extras": "الإضافات",
+          "submit": "إضافة المنتج"
+        }
+      },
+      "editProduct": {
+        "title": "تعديل المنتج",
+        "form": {
+          "name": {
+            "label": "اسم المنتج",
+            "placeholder": "أدخل اسم المنتج"
+          },
+          "description": {
+            "label": "الوصف",
+            "placeholder": "أدخل وصف المنتج"
+          },
+          "basePrice": {
+            "label": "السعر الأساسي",
+            "placeholder": "أدخل السعر الأساسي"
+          },
+          "category": {
+            "label": "الفئة",
+            "placeholder": "اختر الفئة"
+          },
+          "image": {
+            "label": "رفع صورة"
+          },
+          "sizes": "الأحجام",
+          "extras": "الإضافات",
+          "submit": "تعديل المنتج",
+          "back": "العودة إلى جدول المنتجات"
+        }
+      }
+    },
+    "adminTable": {
+      "createUser": "إنشاء مستخدم",
+      "createCategory": "إنشاء تصنيف",
+      "createProduct": "إنشاء منتج",
+      "tableHeaders": {
+        "index": "رقم",
+        "actions": "إجراءات"
+      },
+      "noDataFound": "لا يوجد "
+    },
+    "users": {
+      "table": {
+        "name": "اسم المستخدم",
+        "email": "البريد الإلكتروني",
+        "image": "الصورة",
+        "createdAt": "تاريخ الإنشاء",
+        "updatedAt": "تاريخ التحديث"
+      }
+    },
+    "orders": {
+      "orderDetailsTitle": "تفاصيل الطلب",
+      "table": {
+        "userName": "اسم المستخدم",
+        "email": "البريد الإلكتروني",
+        "amount": "المبلغ",
+        "createdAt": "تاريخ الإنشاء",
+        "updatedAt": "تاريخ التحديث"
+      }
+    }
+  },
+  "category": "الفئة",
+  "save": "حفظ",
+  "edit": "تعديل",
+  "delete": "حذف",
+  "create": "انشاء",
+  "sizes": "الأحجام",
+  "extrasIngredients": "عناصر اضافية",
+  "cancel": "الغاء",
+  "cart": {
+    "title": "عربة التسوق",
+    "noItemsInCart": "لا توجد عناصر في سلة التسوق الخاصة بك. أضف بعضًا"
+  },
+
+  "copyRight": "جميع الحقوق محفوظة",
+  "noProductsFound": "لم يتم العثور على منتجات",
+  "noCategoriesFound": "لم يتم العثور على الفئات"
+}
