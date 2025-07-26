@@ -1,8 +1,8 @@
 import OrderItems from "@/components/OrderItems";
 import { Link } from "@/i18n/navigation";
 import { getOrder } from "@/server/db/orders";
+import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
-
 
 interface OrderDetailsPageProps {
   params: Promise<{ orderId: string }>;
@@ -14,6 +14,8 @@ const OrderDetailsPage = async ({ params }: OrderDetailsPageProps) => {
 
   if (!order) notFound();
 
+  const trans = await getTranslations();
+
   return (
     <>
       <OrderItems order={order} />
@@ -22,7 +24,7 @@ const OrderDetailsPage = async ({ params }: OrderDetailsPageProps) => {
         href="/"
         className="block py-2 px-4 mt-7 mb-10 mx-auto  w-fit text-white rounded-md bg-red-500"
       >
-        Back to Home
+        {trans("backToHome")}
       </Link>
     </>
   );

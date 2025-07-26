@@ -75,7 +75,7 @@ const CheckoutForm = ({ amount }: CheckoutFormProps) => {
         clientSecret,
         elements,
         confirmParams: {
-          return_url: `${DOMAIN}/payment-confirm?orderId=${orderRes.id}`,
+          return_url: `${DOMAIN}/${locale}/payment-confirm?orderId=${orderRes.id}`,
         },
       });
 
