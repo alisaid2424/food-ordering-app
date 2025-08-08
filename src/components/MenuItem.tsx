@@ -1,20 +1,37 @@
+"use client";
+
 import { formatCurrency } from "@/utils/formatters";
 import Image from "next/image";
 import AddToCartButton from "./AddToCartButton";
 import { productWithRelations } from "@/types/product";
+import { motion } from "framer-motion";
 
 type MenuItemProps = {
   item: productWithRelations;
 };
 
+const itemVariants = {
+  hidden: { opacity: 0, y: 50 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1.1,
+      ease: "easeOut",
+    },
+  },
+} as const;
+
 const MenuItem = ({ item }: MenuItemProps) => {
   return (
-    <li className="p-6 rounded-lg text-center group bg-gray-50 hover:bg-white hover:shadow-md hover:shadow-black/25 transition-all cursor-pointer">
-      <div className="relative w-48 h-48 mx-auto  ">
+    <motion.li
+      variants={itemVariants}
+      className="p-6 rounded-lg text-center group bg-gray-50 hover:bg-white hover:shadow-md hover:shadow-black/25 transition-all cursor-pointer"
+    >
+      <div className="relative w-48 h-48 mx-auto">
         <Image
           src={item.image}
-          className="object-cover rounded-full
-        "
+          className="object-cover rounded-full"
           alt={item.name}
           fill
         />
@@ -26,9 +43,8 @@ const MenuItem = ({ item }: MenuItemProps) => {
         </strong>
       </div>
       <p className="text-gray-500 text-sm line-clamp-1">{item.description}</p>
-
       <AddToCartButton item={item} />
-    </li>
+    </motion.li>
   );
 };
 
